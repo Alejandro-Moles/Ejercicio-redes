@@ -4,4 +4,6 @@ Lo primero que hice al empezar el ejercicio fue inventarme las 5 redes, que fuer
 Después de esto, empece a realizar el primer ejercicio en el que se me pedia que sacara 3 subredes de la primera red con 100 host 30 host y 6 host respectivamenete.
 Para ello hice uso de la fórmula que hemos visto en clase **2^m - 2 >= Nº Host** por lo que me salían diferentes subredes que he utilizado, luego he conectado todas esas subredes con un router pero no lo he configurado, ya que no pidían salir fuera. He remarcado la zona de ese ejercicio con un rectángulo verde.
 
-El siguiente ejercicio me pedía 8 ordenadores con DHCP, así que configuré un servidor DHCP para que diese las direcciones ip, la mascara de red y la default Gateway a los 8 ordenadores.
+El siguiente ejercicio me pedía 8 ordenadores con DHCP, así que configuré un servidor DHCP para que diese las direcciones ip, la mascara de red y la default Gateway a los 8 ordenadores. Luego he configurado un router para que se puedieran conectar entre si y mas adelante lo he configurado para que se puedieran conectar los routers entre si.
+Para ello he inventado una nueva direccion ip **192.15.0.0** para conectar los routers entre si. He marcado la zona de este ejercicio con un tono rosa pastel.
+
