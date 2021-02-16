@@ -22,3 +22,5 @@ Luego configure el servidor DHCP para que repartise tambien la direccion ip del 
 Para la web www.wagner.de utilice el servidor ya creado del ejercicio 3, despúes de configurar el servidor web, tambien configuré el DHCP para que repartiese la direcciones DNS.
 
 Por último para la web www.dilar.com utilicé el servidor del ejercicio 2, configuré el servidor web y luego el servidor DHCP para que tambien repartiese las direcciones DNS.
+
+Cabe decir que al comprobar si el ejercicio esta correcto, tarda un poco en dirigirse a la direccion web desde el ordenador.
