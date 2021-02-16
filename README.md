@@ -8,4 +8,8 @@ El siguiente ejercicio me pedía 8 ordenadores con DHCP, así que configuré un 
 Para ello he inventado una nueva direccion ip **192.15.0.0** para conectar los routers entre si. He marcado la zona de este ejercicio con un tono rosa pastel.
 
 Para el tercer ejercicio se me pedía 4 ordenadores con DHCP, así que el proceso fue igual que en el ejercicio anterior pero con menos ordenadores y con una red diferente.
-En el router que he usado para conectar los ordenadores de este ejercicio, he routeado las redes **192.15.0.0**, la red que he inventado para conectar el router del ejercicio anterior y este, **192.20.0.0**, la red que utilizaré para conectar el router del proximo ejercicio  y la red de este ejercicio **192.50.1.0**
+En el router que he usado para conectar los ordenadores de este ejercicio, he routeado las redes **192.15.0.0**, la red que he inventado para conectar el router del ejercicio anterior y este, **192.20.0.0**, la red que utilizaré para conectar el router del proximo ejercicio  y la red de este ejercicio **192.50.1.0**. He remarcado la zona donde he hecho el ejercicio con un color amarillo pastel.
+
+El siguiente ejercicio me pedía 4 ordenadores con IP fija, un punto de acceso con 5 ordenadores con DHCP. Para este he utilizado la 4º red, primero creé un servidor DHCP, y lo configuré para que diese las direcciones ip, la mascara y la default gateway, más tarde lo conecté con un punto de acceso que a su vez conectaba con 5 portátiles. Luego configure 4 ordenadores a mano para que tubiesen ip fija. Por ultimo conecte todo a un switch que a su vez lo concete a un router. Configuré el router para que conectase a las redes del ejercicio anterior y al de los siguientes, utilice las direcciones ip inventadas para conectar los routers entre si **192.20.0.0**, **192.30.1.0**, **192.80.1.0** y **192.160.1.0**, que era la red del ejercicio en si. He remarcado la zona del ejercicio con un color celeste.
+
+
