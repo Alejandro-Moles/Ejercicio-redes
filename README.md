@@ -17,6 +17,8 @@ Para el último ejercicio se me pedía 5 ordenadores con ip fija, así que confi
 Después de finalizar los ejercicios se me pedía que hubiese tres servidores web(www.wagner.de, www.albacete.es y www.dilar.com) y un servidor dns que guardase las direcciones ip de estos tres. Pensando que este ejercicio podía ser una simulacion de una red, decidí aprobechar los servidores DHCP que había creado para contener los servidores web y dns por tal de que el coste total fuese más barato.
 
 Asi qué en el servidor DHCP del ejercicio 4 active el servicio DNS y lo configuré para que **192.160.1.2 fuese la ip para la web de www.albacete.es**, **192.14.2.2 fuese la ip para la web de www.dilar.com** y **192.50.1.2 fuese la ip para la web de www.wagner.de**. En este mismo servidor añadi el servicio HTTP para que tubiese la web de www.albacete.es
-Luego configure el servidor DHCP para que repartise tambien la direccion ip del servisor DNS.
+Luego configure el servidor DHCP para que repartise tambien la direccion ip del servisor DNS y tambien los ordenadores con ip etática para que tubieran la ip de los DNS.
 
-Para la web www.wagner.de utilice el servidor ya creado del ejercicio 
+Para la web www.wagner.de utilice el servidor ya creado del ejercicio 3, despúes de configurar el servidor web, tambien configuré el DHCP para que repartiese la direcciones DNS.
+
+Por último para la web www.dilar.com utilicé el servidor del ejercicio 2, configuré el servidor web y luego el servidor DHCP para que tambien repartiese las direcciones DNS.
