@@ -7,3 +7,5 @@ Para ello hice uso de la fórmula que hemos visto en clase **2^m - 2 >= Nº Host
 El siguiente ejercicio me pedía 8 ordenadores con DHCP, así que configuré un servidor DHCP para que diese las direcciones ip, la mascara de red y la default Gateway a los 8 ordenadores. Luego he configurado un router para que se puedieran conectar entre si y mas adelante lo he configurado para que se puedieran conectar los routers entre si.
 Para ello he inventado una nueva direccion ip **192.15.0.0** para conectar los routers entre si. He marcado la zona de este ejercicio con un tono rosa pastel.
 
+Para el tercer ejercicio se me pedía 4 ordenadores con DHCP, así que el proceso fue igual que en el ejercicio anterior pero con menos ordenadores y con una red diferente.
+En el router que he usado para conectar los ordenadores de este ejercicio, he routeado las redes **192.15.0.0**, la red que he inventado para conectar el router del ejercicio anterior y este, **192.20.0.0**, la red que utilizaré para conectar el router del proximo ejercicio  y la red de este ejercicio **192.50.1.0**
